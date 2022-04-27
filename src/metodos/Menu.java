@@ -60,7 +60,7 @@ public class Menu {
                     System.out.println("==================================Alunos==================================");
                     for (int i = 0; i < alunoarrays.size(); i++) {
 
-                        Classes uTemp = alunoarrays.get(i);
+                        Classes percorre = alunoarrays.get(i);
                         System.out.println("Id: " + i);
                         System.out.println("Nome: " + alunoarrays.get(i).getPessoa());
                         System.out.println("Data de nascimento: " + alunoarrays.get(i).getDatadenasc());
